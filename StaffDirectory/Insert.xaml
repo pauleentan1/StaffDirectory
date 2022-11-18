@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StaffDirectory.Insert">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label>Name</Label>
+            <Entry x:Name="NameInsert"  Placeholder="Name" />
+            <Label>Price</Label>
+            <Entry x:Name="PositionInsert" Placeholder="Position" />
+            <Label>CODE</Label>
+            <Entry x:Name="DepartmentInsert" Placeholder="DEPARTMENT"></Entry>
+
+            <Button Clicked="Button_Clicked" Text="INSERT"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

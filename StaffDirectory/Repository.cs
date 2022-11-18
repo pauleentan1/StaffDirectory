@@ -9,10 +9,10 @@ namespace StaffDirectory
     public class Repository
     {
         #region Connection String
-        const string srvrdbname = "StoreDB";
-        const string srvrname = "192.168.1.132";
-        const string srvrusername = "shaun";
-        const string srvrpassword = "123456";
+        const string srvrdbname = "ROIDB";
+        const string srvrname = "192.168.0.103";
+        const string srvrusername = "Abi";
+        const string srvrpassword = "art12345";
         private string _connectionString;
         public Repository()
         {
@@ -25,7 +25,7 @@ namespace StaffDirectory
         {
             var staffList = new List<Staff>();
             using (var connection = new SqlConnection(_connectionString))
-            using (var command = new SqlCommand("SELECT * FROM Products", connection))
+            using (var command = new SqlCommand("SELECT * FROM Staff", connection))
             {
                 connection.Open();
                 var reader = command.ExecuteReader();
@@ -37,7 +37,7 @@ namespace StaffDirectory
                         {
                             Id = reader.GetInt32(0),
                             Name = reader.GetString(1),
-                            Position = Convert.ToDouble(reader.GetDecimal(2)),
+                            Position = reader.GetString(2),
                             Department = reader.GetString(3).ToUpper()
                         };
                         staffList.Add(aStaff);
@@ -49,14 +49,14 @@ namespace StaffDirectory
         }
         #endregion
 
-        #region Update Product
-        public int UpdateProduct(Staff p)
+        #region Update Staff
+        public int UpdateStaff(Staff p)
         {
             int result = 0;
             using (var connection = new SqlConnection(_connectionString))
             using (var command = new SqlCommand())
             {
-                command.CommandText = "UPDATE Products SET Name=@Name,Position=@Position,Department=@Department WHERE Id = @id";
+                command.CommandText = "UPDATE Staff SET Name=@Name,Position=@Position,Department=@Department WHERE Id = @id";
                 command.Parameters.AddWithValue("@id", p.Id);
                 command.Parameters.AddWithValue("@Name", p.Name);
                 command.Parameters.AddWithValue("@Position", p.Position);
@@ -71,7 +71,7 @@ namespace StaffDirectory
         #endregion
 
         #region Insert Staff
-        public int InsertProduct(Staff p)
+        public int InsertStaff(Staff p)
         {
             int result = 0;
             using (var connection = new SqlConnection(_connectionString))
@@ -91,7 +91,7 @@ namespace StaffDirectory
         #endregion
 
         #region Delete Staff
-        public int DeleteProduct(Staff p)
+        public int DeleteStaff(Staff p)
         {
             int result = 0;
             using (var connection = new SqlConnection(_connectionString))

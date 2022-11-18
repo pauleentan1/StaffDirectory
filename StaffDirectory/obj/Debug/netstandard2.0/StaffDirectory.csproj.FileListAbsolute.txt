@@ -13,3 +13,5 @@ C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory\obj\De
 C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory\obj\Debug\netstandard2.0\refint\StaffDirectory.dll
 C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory\obj\Debug\netstandard2.0\StaffDirectory.pdb
 C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory\obj\Debug\netstandard2.0\ref\StaffDirectory.dll
+C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory\obj\Debug\netstandard2.0\Details.xaml.g.cs
+C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory\obj\Debug\netstandard2.0\Insert.xaml.g.cs

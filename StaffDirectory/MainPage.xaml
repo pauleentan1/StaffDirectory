@@ -4,9 +4,7 @@
              x:Class="StaffDirectory.MainPage">
 
     <StackLayout>
-        <Label x:Name="Change"></Label>
-        <Button Text="Connect with Server" BackgroundColor="#2196F3" TextColor="White" Clicked="Button_Clicked"/>
-
+        <Button Text="ADD NEW STAFF" Clicked="Button_Clicked"></Button>
         <ListView x:Name="StaffView"
             ItemsSource="{Binding staffL}" HasUnevenRows="True">
             <ListView.ItemTemplate>

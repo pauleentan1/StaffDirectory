@@ -7,23 +7,50 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace StaffDirectory
 {
     public partial class MainPage : ContentPage
     {
-        const string srvrdbname = "StoreDB";
-        const string srvrname = "192.168.1.132";
-        const string srvrusername = "shaun";
-        const string srvrpassword = "123456";
+        const string srvrdbname = "ROIDB";
+        const string srvrname = "192.168.0.103";
+        const string srvrusername = "Abi";
+        const string srvrpassword = "art12345";
+        private Repository _repo;
 
-        ObservableCollection<Staff> productL = new ObservableCollection<Staff>();
-        public ObservableCollection<Staff> staffL { get { return staffL; } }
+        ObservableCollection<Staff> staffL = new ObservableCollection<Staff>();
+        public ObservableCollection<Staff> StaffL { get { return staffL; } }
         public MainPage()
         {
             InitializeComponent();
+            var repo = new Repository();
+            var staffList = repo.GetStaff();
+            _repo = repo;
+
+            StaffView.ItemsSource = staffL;
+
+            foreach (var staff in staffList)
+            {
+                staffL.Add(staff);
+            }
         }
 
+        //DETAILS -> UPDATE AND DELETE NAV
+        async void StaffView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            var product = e.SelectedItem as Staff;
+            await Navigation.PushAsync(new Details(product, _repo));
+        }
+
+        //ADD NAVIGATION
+        async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Insert(_repo));
+        }
+
+
+        /**
         private void Button_Clicked(object sender, EventArgs e)
         {
             try
@@ -37,7 +64,7 @@ namespace StaffDirectory
                 SqlDataReader dataReader;
                 string sql, output = "";
 
-                sql = "SELECT * FROM Products";
+                sql = "SELECT * FROM Staff";
                 command = new SqlCommand(sql, sqlConnection);
 
                 dataReader = command.ExecuteReader();
@@ -77,7 +104,7 @@ namespace StaffDirectory
                 throw;
             }
 
-        }
+        }**/
     }
 }
     
