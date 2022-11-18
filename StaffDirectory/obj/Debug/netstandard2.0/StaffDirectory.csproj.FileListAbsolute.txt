@@ -1,0 +1,15 @@
+C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory\bin\Debug\netstandard2.0\StaffDirectory.deps.json
+C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory\bin\Debug\netstandard2.0\StaffDirectory.dll
+C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory\bin\Debug\netstandard2.0\StaffDirectory.pdb
+C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory\obj\Debug\netstandard2.0\StaffDirectory.csproj.AssemblyReference.cache
+C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory\obj\Debug\netstandard2.0\StaffDirectory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory\obj\Debug\netstandard2.0\StaffDirectory.AssemblyInfoInputs.cache
+C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory\obj\Debug\netstandard2.0\StaffDirectory.AssemblyInfo.cs
+C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory\obj\Debug\netstandard2.0\StaffDirectory.csproj.CoreCompileInputs.cache
+C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory\obj\Debug\netstandard2.0\StaffDirectory.dll
+C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory\obj\Debug\netstandard2.0\refint\StaffDirectory.dll
+C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory\obj\Debug\netstandard2.0\StaffDirectory.pdb
+C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory\obj\Debug\netstandard2.0\ref\StaffDirectory.dll
