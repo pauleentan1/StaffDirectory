@@ -1,17 +1,22 @@
-﻿using System;
+﻿using Microsoft.Identity.Client;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.SqlClient;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System.Reflection;
 
 namespace StaffDirectory
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Details : ContentPage
     {
+
         private Repository _repo;
         private Staff staffD;
         private Staff _staffDetails;
@@ -20,15 +25,16 @@ namespace StaffDirectory
         {
             InitializeComponent();
             _repo = repo;
-
+            
             staffD = staffSend;
             _staffDetails = staffSend;
 
             DetailsId.Text = staffD.Id.ToString(); //int to string
             DetailsStaffName.Text = staffD.Name;
             DetailsDepartment.Text = staffD.Department;
-            DetailsPosition.Text = staffD.Position;
+            DetailsPosition.Text = staffD.Position;//int to string
         }
+
         //Update
         async void Button_Clicked(object sender, EventArgs e)
         {

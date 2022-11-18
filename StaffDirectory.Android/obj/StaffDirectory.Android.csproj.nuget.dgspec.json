@@ -46,6 +46,10 @@
               "target": "Package",
               "version": "[1.26.0, )"
             },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.0.1, )"
@@ -113,6 +117,10 @@
             "Azure.Core": {
               "target": "Package",
               "version": "[1.26.0, )"
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.8.0, )"
             },
             "Microsoft.Data.SqlClient": {
               "target": "Package",

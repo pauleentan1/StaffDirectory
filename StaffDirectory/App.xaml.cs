@@ -10,7 +10,9 @@ namespace StaffDirectory
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            //SETUP NAVIGATION CONTEXT
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

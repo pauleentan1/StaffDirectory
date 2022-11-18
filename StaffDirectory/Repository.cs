@@ -38,7 +38,7 @@ namespace StaffDirectory
                             Id = reader.GetInt32(0),
                             Name = reader.GetString(1),
                             Position = reader.GetString(2),
-                            Department = reader.GetString(3).ToUpper()
+                            Department = reader.GetString(3)
                         };
                         staffList.Add(aStaff);
 

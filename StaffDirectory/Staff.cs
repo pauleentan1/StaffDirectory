@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace StaffDirectory
+﻿namespace StaffDirectory
 {
     public class Staff
     {
@@ -12,3 +8,7 @@ namespace StaffDirectory
         public string Department { get; set; }
     }
 }
+
+//video tutorial https://www.youtube.com/watch?v=xNmIdFjXzl4&t=0s
+
+

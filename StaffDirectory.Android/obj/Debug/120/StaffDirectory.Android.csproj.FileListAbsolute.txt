@@ -681,3 +681,6 @@ C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory.Androi
 C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory.Android\obj\Debug\120\android\assets\I18N.pdb
 C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory.Android\obj\Debug\120\android\assets\I18N.West.dll
 C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory.Android\obj\Debug\120\android\assets\I18N.West.pdb
+C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory.Android\obj\Debug\120\android\assets\System.IO.FileSystem.AccessControl.dll
+C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory.Android\obj\Debug\120\android\assets\System.Security.AccessControl.dll
+C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory.Android\obj\Debug\120\android\assets\System.Security.Principal.Windows.dll

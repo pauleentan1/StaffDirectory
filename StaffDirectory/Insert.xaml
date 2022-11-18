@@ -6,10 +6,10 @@
         <StackLayout>
             <Label>Name</Label>
             <Entry x:Name="NameInsert"  Placeholder="Name" />
-            <Label>Price</Label>
+            <Label>Position</Label>
             <Entry x:Name="PositionInsert" Placeholder="Position" />
-            <Label>CODE</Label>
-            <Entry x:Name="DepartmentInsert" Placeholder="DEPARTMENT"></Entry>
+            <Label>Department</Label>
+            <Entry x:Name="DepartmentInsert" Placeholder="Department"></Entry>
 
             <Button Clicked="Button_Clicked" Text="INSERT"></Button>
         </StackLayout>
