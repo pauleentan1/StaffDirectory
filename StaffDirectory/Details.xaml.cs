@@ -32,7 +32,9 @@ namespace StaffDirectory
             DetailsId.Text = staffD.Id.ToString(); //int to string
             DetailsStaffName.Text = staffD.Name;
             DetailsDepartment.Text = staffD.Department;
-            DetailsPosition.Text = staffD.Position;//int to string
+            DetailsPosition.Text = staffD.Position;
+            DetailsPhone.Text = staffD.Phone.ToString(); //int to string
+            DetailsAddress.Text = staffD.Address;
         }
 
         //Update
@@ -41,6 +43,8 @@ namespace StaffDirectory
             _staffDetails.Name = NameUpdate.Text;
             _staffDetails.Position = PositionUpdate.Text;
             _staffDetails.Department = DepartmentUpdated.Text;
+            _staffDetails.Phone = PhoneUpdate.Text;
+            _staffDetails.Address = AddressUpdate.Text;
 
             try
             {

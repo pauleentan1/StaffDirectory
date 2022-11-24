@@ -29,6 +29,8 @@ namespace StaffDirectory
             staffInsert.Name = NameInsert.Text;
             staffInsert.Position = PositionInsert.Text;
             staffInsert.Department = DepartmentInsert.Text;
+            staffInsert.Phone = PhoneInsert.Text;
+            staffInsert.Address = AddressInsert.Text;
 
             try
             {

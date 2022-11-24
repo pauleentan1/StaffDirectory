@@ -3,15 +3,21 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="StaffDirectory.Insert">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout>
             <Label>Name</Label>
-            <Entry x:Name="NameInsert"  Placeholder="Name" />
+            <Entry x:Name="NameInsert"  BackgroundColor="LightCoral" Placeholder="Name" />
             <Label>Position</Label>
-            <Entry x:Name="PositionInsert" Placeholder="Position" />
+            <Entry x:Name="PositionInsert" BackgroundColor="LightCoral" Placeholder="Position" />
             <Label>Department</Label>
-            <Entry x:Name="DepartmentInsert" Placeholder="Department"></Entry>
+            <Entry x:Name="DepartmentInsert" BackgroundColor="LightCoral" Placeholder="Department"></Entry>
+            <Label>Phone</Label>
+            <Entry x:Name="PhoneInsert" BackgroundColor="LightCoral" Placeholder="Phone"></Entry>
+            <Label>Address</Label>
+            <Entry x:Name="AddressInsert" BackgroundColor="LightCoral" Placeholder="Address"></Entry>
 
-            <Button Clicked="Button_Clicked" Text="INSERT"></Button>
+                <Button Clicked="Button_Clicked" BackgroundColor="LightCoral" Text="INSERT"></Button>
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

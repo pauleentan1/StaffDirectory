@@ -38,7 +38,9 @@ namespace StaffDirectory
                             Id = reader.GetInt32(0),
                             Name = reader.GetString(1),
                             Position = reader.GetString(2),
-                            Department = reader.GetString(3)
+                            Department = reader.GetString(3),
+                            Phone = reader.GetString(4),
+                            Address = reader.GetString(5)
                         };
                         staffList.Add(aStaff);
 
@@ -56,12 +58,13 @@ namespace StaffDirectory
             using (var connection = new SqlConnection(_connectionString))
             using (var command = new SqlCommand())
             {
-                command.CommandText = "UPDATE Staff SET Name=@Name,Position=@Position,Department=@Department WHERE Id = @id";
+                command.CommandText = "UPDATE Staff SET Name=@Name,Position=@Position,Department=@Department, Phone=@Phone, Address=@Adress WHERE Id = @id";
                 command.Parameters.AddWithValue("@id", p.Id);
                 command.Parameters.AddWithValue("@Name", p.Name);
                 command.Parameters.AddWithValue("@Position", p.Position);
                 command.Parameters.AddWithValue("@Department", p.Department);
-
+                command.Parameters.AddWithValue("@Phone", p.Phone);
+                command.Parameters.AddWithValue("@Address", p.Address);
                 command.Connection = connection;
                 connection.Open();
                 result = command.ExecuteNonQuery();
@@ -77,11 +80,13 @@ namespace StaffDirectory
             using (var connection = new SqlConnection(_connectionString))
             using (var command = new SqlCommand())
             {
-                command.CommandText = "INSERT INTO Staff VALUES (@Name,@Position,@Department)";
+                command.CommandText = "INSERT INTO Staff VALUES (@Name,@Position,@Department,@Phone,@Address)";
                 //command.Parameters.AddWithValue("@id", p.Id);
                 command.Parameters.AddWithValue("@Name", p.Name);
                 command.Parameters.AddWithValue("@Position", p.Position);
                 command.Parameters.AddWithValue("@Department", p.Department);
+                command.Parameters.AddWithValue("@Phone", p.Phone);
+                command.Parameters.AddWithValue("@Address", p.Address);
                 command.Connection = connection;
                 connection.Open();
                 result = command.ExecuteNonQuery();
