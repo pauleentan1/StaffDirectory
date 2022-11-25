@@ -1,47 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="StaffDirectory.MainPage"
-             Title="ROI"
-             >
+             x:Class="StaffDirectory.MainPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="End" VerticalOptions="EndAndExpand">
+            <Image Source="ins.png" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="70"></Image>
+            <Label Text="Employee Name" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" VerticalOptions="Start" TextColor="Black"></Label>
+            <Label Text="Red Opal Innovation" TextColor="Gray" HorizontalOptions="Center" VerticalOptions="End"></Label>
+            <StackLayout>
+                <Button Text="Organisations"  TextColor="White" HeightRequest="40" WidthRequest="320" BackgroundColor="LightCoral" BorderColor="Black" BorderWidth="1">
+                </Button>
+                    <Button Text="My Profile"  TextColor="White" HeightRequest="40" WidthRequest="320" BackgroundColor="LightCoral" BorderColor="Black" BorderWidth="1">
+                    </Button>
+                <Button Text="Staff DIrectory"  TextColor="White" HeightRequest="40" WidthRequest="320" BackgroundColor="LightCoral" BorderColor="Black" BorderWidth="1"
+                    Clicked="Button_Clicked"></Button>
+                        <Button Text="Settings"  TextColor="White" HeightRequest="40" WidthRequest="320" BackgroundColor="LightCoral" BorderColor="Black" BorderWidth="1">
+                            </Button>
+                        <Button Text="Privacy Policy"  TextColor="White" HeightRequest="40" WidthRequest="320" BackgroundColor="LightCoral" BorderColor="Black" BorderWidth="1">
+                        </Button>
+                            <Button Text="Log Out"  TextColor="White" HeightRequest="40" WidthRequest="320" BackgroundColor="LightCoral" BorderColor="Black" BorderWidth="1">
+                            </Button>
+            </StackLayout>
 
-    <StackLayout >
-        <Label Text="STAFF DRIECTORY" FontSize="20" FontAttributes="Bold" FontFamily ="Trebuchet" 
-                                    HeightRequest="80" BackgroundColor="#9D514F" TextColor="White"
-                                  HorizontalTextAlignment="Center"
-                                   VerticalTextAlignment="Center"></Label>
-        <Button Text="ADD NEW STAFF" FontFamily ="Trebuchet" TextColor="White" BackgroundColor="#941A1D" Clicked="Button_Clicked"></Button>
-        <ListView x:Name="StaffView" 
-            ItemsSource="{Binding StaffL}" HasUnevenRows="True" ItemSelected="StaffView_ItemSelected">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <Grid Padding="5" ColumnDefinitions="30,80,*,*,5" 
-                              BackgroundColor="#595959"
-                              RowDefinitions="50,20,40">
-
-                            <Label BackgroundColor="#9D514F" TextColor="White"
-                                  HorizontalTextAlignment="Center"
-                                   VerticalTextAlignment="Center"
-                                   Text="{Binding Id}" FontAttributes="Italic,Bold" FontFamily ="Trebuchet" FontSize="20"/>
-                            <Label Grid.Column="1" Grid.ColumnSpan="1"  Text="{Binding Name}" FontAttributes="Bold" FontFamily ="Trebuchet" 
-                                   TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" FontSize="18"/>
-                            <Label Grid.Column="2"  Text="{Binding Position}" VerticalTextAlignment="Start" HorizontalTextAlignment="Center" 
-                                   TextColor="White" FontFamily ="Trebuchet" FontSize="16"/>
-                            <Label Grid.Column="3" Grid.ColumnSpan="1" Text="{Binding Department}" VerticalTextAlignment="Center" 
-                                   TextColor="White" HorizontalTextAlignment="Center" FontFamily ="Trebuchet" FontSize="16"/>
-                            <Label Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1" Text="{Binding Phone}" VerticalTextAlignment="Center" 
-                                   TextColor="White" HorizontalTextAlignment="Start" FontFamily ="Trebuchet" FontSize="16"/>
-                            <Label Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="2" Text="{Binding Address}" VerticalTextAlignment="Center" 
-                                   TextColor="White" HorizontalTextAlignment="Start" FontFamily ="Trebuchet" FontSize="16"/>
-                            <Image Source="person.png" Grid.Column="3" Grid.ColumnSpan="1" Grid.Row="1" Grid.RowSpan="2" HorizontalOptions="Center" ScaleX="0.05" ScaleY="0.5"></Image>
-
-
-                        </Grid>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-    </StackLayout>
-
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>
