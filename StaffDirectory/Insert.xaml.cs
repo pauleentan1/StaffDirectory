@@ -25,7 +25,7 @@ namespace StaffDirectory
         //Insert
         async void Button_Clicked(object sender, EventArgs e)
         {
-
+            
             staffInsert.Name = NameInsert.Text;
             staffInsert.Position = PositionInsert.Text;
             staffInsert.Department = DepartmentInsert.Text;
@@ -35,7 +35,7 @@ namespace StaffDirectory
             try
             {
                 _repo.InsertStaff(staffInsert);
-                await Navigation.PushAsync(new MainPage());
+                await Navigation.PushAsync(new ProfilePage());
             }
             catch (Exception ex)
             {

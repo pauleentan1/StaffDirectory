@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vB7UpIgPxnKV3rilKbVroqC8RvJNDcj1HIMVx/cwkry18lLFfmTtzNPeDUuOQhENCRyqLzGAO/4tKdMgGuOIQg==",
+  "dgSpecHash": "DWeRTZQIbkQDaQG93xRQPJZXMVEwQbIPuB3Gl8uQCajsV2X0DBGGSEfGUDMQwLYu7mq9c3mObF1m1RnOLVOong==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory\\StaffDirectory.Android\\StaffDirectory.Android.csproj",
+  "projectFilePath": "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory - Copy\\StaffDirectory.Android\\StaffDirectory.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ART\\.nuget\\packages\\azure.core\\1.26.0\\azure.core.1.26.0.nupkg.sha512",
     "C:\\Users\\ART\\.nuget\\packages\\azure.identity\\1.8.0\\azure.identity.1.8.0.nupkg.sha512",

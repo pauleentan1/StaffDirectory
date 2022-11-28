@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "geZC9qSV4FSW9m4B/kyp9kZx0sRxm3oMV5odxQl4+dtVTPNYBiSnjoU32N820yN2RT8Yuy+PdHq7N/9TZ/c4xg==",
+  "dgSpecHash": "AhC3246o8mcSxVEdlSkYTHdjML4XpNFBXeJb+DY0Q3UVTg1bhylIZRbbbLVyPXQ1JEUFUWcJabKbTucqA1sd6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory\\StaffDirectory.iOS\\StaffDirectory.iOS.csproj",
+  "projectFilePath": "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory - Copy\\StaffDirectory.iOS\\StaffDirectory.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ART\\.nuget\\packages\\azure.core\\1.26.0\\azure.core.1.26.0.nupkg.sha512",
     "C:\\Users\\ART\\.nuget\\packages\\azure.identity\\1.8.0\\azure.identity.1.8.0.nupkg.sha512",

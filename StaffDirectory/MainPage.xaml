@@ -1,24 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="StaffDirectory.MainPage">
+             x:Class="StaffDirectory.MainPage"
+             Title="WELCOME!">
     <ContentPage.Content>
         <StackLayout HorizontalOptions="End" VerticalOptions="EndAndExpand">
-            <Image Source="ins.png" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="70"></Image>
-            <Label Text="Employee Name" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" VerticalOptions="Start" TextColor="Black"></Label>
-            <Label Text="Red Opal Innovation" TextColor="Gray" HorizontalOptions="Center" VerticalOptions="End"></Label>
+            <Image Source="person.png" HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="40"></Image>
+            <Label Text="Employee Name" FontSize="Large" HorizontalTextAlignment="Center" HeightRequest="30" VerticalTextAlignment="Center" HorizontalOptions="Center" VerticalOptions="Start" TextColor="Black"></Label>
+            <Label Text="Red Opal Innovation" TextColor="Gray" HorizontalOptions="Center" HeightRequest="30" VerticalOptions="End"></Label>
             <StackLayout>
-                <Button Text="Organisations"  TextColor="White" HeightRequest="40" WidthRequest="320" BackgroundColor="LightCoral" BorderColor="Black" BorderWidth="1">
+                <Button Text="Organisations"  TextColor="White" HeightRequest="35" WidthRequest="320" BackgroundColor="#CB6D4F" BorderColor="Black" BorderWidth="1">
                 </Button>
-                    <Button Text="My Profile"  TextColor="White" HeightRequest="40" WidthRequest="320" BackgroundColor="LightCoral" BorderColor="Black" BorderWidth="1">
+                <Button Text="My Profile"  TextColor="White" HeightRequest="35" WidthRequest="320" BackgroundColor="#CB6D4F" BorderColor="Black" BorderWidth="1">
                     </Button>
-                <Button Text="Staff DIrectory"  TextColor="White" HeightRequest="40" WidthRequest="320" BackgroundColor="LightCoral" BorderColor="Black" BorderWidth="1"
+                <Button Text="Staff DIrectory"  TextColor="White" HeightRequest="35" WidthRequest="320" BackgroundColor="#CB6D4F" BorderColor="Black" BorderWidth="1"
                     Clicked="Button_Clicked"></Button>
-                        <Button Text="Settings"  TextColor="White" HeightRequest="40" WidthRequest="320" BackgroundColor="LightCoral" BorderColor="Black" BorderWidth="1">
+                <Button Text="Settings"  TextColor="White" HeightRequest="35" WidthRequest="320" BackgroundColor="#CB6D4F" BorderColor="Black" BorderWidth="1">
                             </Button>
-                        <Button Text="Privacy Policy"  TextColor="White" HeightRequest="40" WidthRequest="320" BackgroundColor="LightCoral" BorderColor="Black" BorderWidth="1">
+                <Button Text="Privacy Policy"  TextColor="White" HeightRequest="35" WidthRequest="320" BackgroundColor="#CB6D4F" BorderColor="Black" BorderWidth="1">
                         </Button>
-                            <Button Text="Log Out"  TextColor="White" HeightRequest="40" WidthRequest="320" BackgroundColor="LightCoral" BorderColor="Black" BorderWidth="1">
+                <Button Text="Log Out"  TextColor="White" HeightRequest="35" WidthRequest="320" BackgroundColor="#C64C38" BorderColor="Black" BorderWidth="1">
                             </Button>
             </StackLayout>
 

@@ -1,22 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="StaffDirectory.Insert">
+             x:Class="StaffDirectory.Insert"
+             Title="New Staff Details">
     <ContentPage.Content>
         <ScrollView>
         <StackLayout>
             <Label>Name</Label>
-            <Entry x:Name="NameInsert"  BackgroundColor="LightCoral" Placeholder="Name" />
+            <Entry x:Name="NameInsert"  BackgroundColor="#CB6D4F" Placeholder="Name" />
             <Label>Position</Label>
-            <Entry x:Name="PositionInsert" BackgroundColor="LightCoral" Placeholder="Position" />
+                <Entry x:Name="PositionInsert" BackgroundColor="#CB6D4F" Placeholder="Position" />
             <Label>Department</Label>
-            <Entry x:Name="DepartmentInsert" BackgroundColor="LightCoral" Placeholder="Department"></Entry>
+                <Entry x:Name="DepartmentInsert" BackgroundColor="#CB6D4F" Placeholder="Department"></Entry>
             <Label>Phone</Label>
-            <Entry x:Name="PhoneInsert" BackgroundColor="LightCoral" Placeholder="Phone"></Entry>
+                <Entry x:Name="PhoneInsert" BackgroundColor="#CB6D4F" Placeholder="Phone"></Entry>
             <Label>Address</Label>
-            <Entry x:Name="AddressInsert" BackgroundColor="LightCoral" Placeholder="Address"></Entry>
+                <Entry x:Name="AddressInsert" BackgroundColor="#CB6D4F" Placeholder="Address"></Entry>
 
-                <Button Clicked="Button_Clicked" BackgroundColor="LightCoral" Text="INSERT"></Button>
+                <Button Clicked="Button_Clicked" BackgroundColor="#C64C38" Text="ADD STAFF TO DIRECTORY"></Button>
         </StackLayout>
         </ScrollView>
     </ContentPage.Content>

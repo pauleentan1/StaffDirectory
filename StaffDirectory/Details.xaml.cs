@@ -49,7 +49,7 @@ namespace StaffDirectory
             try
             {
                 _repo.UpdateStaff(_staffDetails);
-                await Navigation.PushAsync(new MainPage());
+                await Navigation.PushAsync(new ProfilePage());
             }
             catch (Exception ex)
             {
@@ -66,7 +66,7 @@ namespace StaffDirectory
                 try
                 {
                     _repo.DeleteStaff(_staffDetails);
-                    await Navigation.PushAsync(new MainPage());
+                    await Navigation.PushAsync(new ProfilePage());
                 }
                 catch (Exception ex)
                 {

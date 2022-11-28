@@ -58,7 +58,7 @@ namespace StaffDirectory
             using (var connection = new SqlConnection(_connectionString))
             using (var command = new SqlCommand())
             {
-                command.CommandText = "UPDATE Staff SET Name=@Name,Position=@Position,Department=@Department, Phone=@Phone, Address=@Adress WHERE Id = @id";
+                command.CommandText = "UPDATE Staff SET Name=@Name,Position=@Position,Department=@Department, Phone=@Phone, Address=@Address WHERE Id = @id";
                 command.Parameters.AddWithValue("@id", p.Id);
                 command.Parameters.AddWithValue("@Name", p.Name);
                 command.Parameters.AddWithValue("@Position", p.Position);

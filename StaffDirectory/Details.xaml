@@ -1,24 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="StaffDirectory.Details">
+             x:Class="StaffDirectory.Details"
+             Title="Staff Details">
     <ContentPage.Content>
         <ScrollView>
         <StackLayout>
             <Label x:Name="DetailsId" >Loading...</Label>
             <Label x:Name="DetailsStaffName" >Loading...</Label>
-            <Entry x:Name="NameUpdate"  BackgroundColor="LightCoral" Placeholder="Name" />
+                <Entry x:Name="NameUpdate"  BackgroundColor="#CB6D4F" Placeholder="Name" />
             <Label x:Name="DetailsPosition" >Loading...</Label>
-            <Entry x:Name="PositionUpdate" BackgroundColor="LightCoral" Placeholder="Position" />
+                <Entry x:Name="PositionUpdate" BackgroundColor="#CB6D4F" Placeholder="Position" />
             <Label x:Name="DetailsPhone" >Loading...</Label>
-            <Entry x:Name="PhoneUpdate" BackgroundColor="LightCoral" Placeholder="Phone" />
+                <Entry x:Name="PhoneUpdate" BackgroundColor="#CB6D4F" Placeholder="Phone" />
             <Label x:Name="DetailsAddress" >Loading...</Label>
-            <Entry x:Name="AddressUpdate" BackgroundColor="LightCoral" Placeholder="Address" />
+                <Entry x:Name="AddressUpdate" BackgroundColor="#CB6D4F" Placeholder="Address" />
             <Label x:Name="DetailsDepartment" >Loading...</Label>
-            <Entry x:Name="DepartmentUpdated" BackgroundColor="LightCoral" Placeholder="DEPARTMENT" />
+                <Entry x:Name="DepartmentUpdated" BackgroundColor="#CB6D4F" Placeholder="Department" />
 
-                <Button Clicked="Button_Clicked" BackgroundColor="LightCoral" Text="UPDATE"></Button>
-                <Button Clicked="Button_Clicked_1" BackgroundColor="LightCoral" Text="DELETE"></Button>
+                <Button Clicked="Button_Clicked" BackgroundColor="#C64C38" Text="UPDATE STAFF DETAILS"></Button>
+                <Button Clicked="Button_Clicked_1" BackgroundColor="#C64C38" Text="DELETE STAFF"></Button>
         </StackLayout>
         </ScrollView>
     </ContentPage.Content>
