@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lzvJrgJYI0Yl9dD+UWVrtNdwGMAyCfkcGL1Tnzmb4q+pMsDpW1f7nfyciKkQNIYO8ZtNE/q2rw3eFHayjw94Lw==",
+  "dgSpecHash": "mADZhSw7Es8vyIHmeC9dKntVXNOyxPdWCRE7HWoLFtBUbRKJFLBJFjD8I6tq7EvX0ftCqTLBTZDqSHVEErndfg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory - Copy\\StaffDirectory\\StaffDirectory.csproj",
+  "projectFilePath": "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory\\StaffDirectory\\StaffDirectory.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ART\\.nuget\\packages\\azure.core\\1.26.0\\azure.core.1.26.0.nupkg.sha512",
     "C:\\Users\\ART\\.nuget\\packages\\azure.identity\\1.8.0\\azure.identity.1.8.0.nupkg.sha512",

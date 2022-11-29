@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory - Copy\\StaffDirectory\\StaffDirectory.csproj": {}
+    "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory\\StaffDirectory\\StaffDirectory.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory - Copy\\StaffDirectory\\StaffDirectory.csproj": {
+    "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory\\StaffDirectory\\StaffDirectory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory - Copy\\StaffDirectory\\StaffDirectory.csproj",
+        "projectUniqueName": "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory\\StaffDirectory\\StaffDirectory.csproj",
         "projectName": "StaffDirectory",
-        "projectPath": "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory - Copy\\StaffDirectory\\StaffDirectory.csproj",
+        "projectPath": "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory\\StaffDirectory\\StaffDirectory.csproj",
         "packagesPath": "C:\\Users\\ART\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory - Copy\\StaffDirectory\\obj\\",
+        "outputPath": "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory\\StaffDirectory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

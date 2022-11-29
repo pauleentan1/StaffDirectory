@@ -6,7 +6,7 @@
              Title="Staff Directory">
 
     <StackLayout >
-        <StackLayout Orientation="1">
+        <StackLayout Orientation="Horizontal">
             <Button Text="ADD NEW STAFF" FontFamily ="Trebuchet" TextColor="White" BackgroundColor="#c64c38" Clicked="Button_Clicked" BorderColor="Black" BorderWidth="1"></Button>
             <Button Text="VIEW BY DEPARTMENT" FontFamily ="Trebuchet" TextColor="White" BackgroundColor="#c64c38" BorderColor="Black" BorderWidth="1"></Button>
         </StackLayout>    

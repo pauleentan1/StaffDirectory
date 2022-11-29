@@ -1371,3 +1371,4 @@ C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory - Copy\StaffDirectory
 C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory - Copy\StaffDirectory.Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory - Copy\StaffDirectory.Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory - Copy\StaffDirectory.Android\obj\Debug\120\res\drawable\person.png
+C:\Users\ART\Desktop\AAP\CIV\Thursday\Proj2\StaffDirectory\StaffDirectory.Android\obj\Debug\120\res\drawable\person.png

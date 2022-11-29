@@ -16,7 +16,7 @@
                 <Button Text="Staff DIrectory"  TextColor="White" HeightRequest="35" WidthRequest="320" BackgroundColor="#CB6D4F" BorderColor="Black" BorderWidth="1"
                     Clicked="Button_Clicked"></Button>
                 <Button Text="Settings"  TextColor="White" HeightRequest="35" WidthRequest="320" BackgroundColor="#CB6D4F" BorderColor="Black" BorderWidth="1">
-                            </Button>
+                </Button>
                 <Button Text="Privacy Policy"  TextColor="White" HeightRequest="35" WidthRequest="320" BackgroundColor="#CB6D4F" BorderColor="Black" BorderWidth="1">
                         </Button>
                 <Button Text="Log Out"  TextColor="White" HeightRequest="35" WidthRequest="320" BackgroundColor="#C64C38" BorderColor="Black" BorderWidth="1">

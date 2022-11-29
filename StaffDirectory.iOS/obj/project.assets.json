@@ -4763,11 +4763,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory - Copy\\StaffDirectory.iOS\\StaffDirectory.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory\\StaffDirectory.iOS\\StaffDirectory.iOS.csproj",
       "projectName": "StaffDirectory.iOS",
-      "projectPath": "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory - Copy\\StaffDirectory.iOS\\StaffDirectory.iOS.csproj",
+      "projectPath": "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory\\StaffDirectory.iOS\\StaffDirectory.iOS.csproj",
       "packagesPath": "C:\\Users\\ART\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory - Copy\\StaffDirectory.iOS\\obj\\",
+      "outputPath": "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory\\StaffDirectory.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -4788,8 +4788,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory - Copy\\StaffDirectory\\StaffDirectory.csproj": {
-              "projectPath": "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory - Copy\\StaffDirectory\\StaffDirectory.csproj"
+            "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory\\StaffDirectory\\StaffDirectory.csproj": {
+              "projectPath": "C:\\Users\\ART\\Desktop\\AAP\\CIV\\Thursday\\Proj2\\StaffDirectory\\StaffDirectory\\StaffDirectory.csproj"
             }
           }
         }

@@ -20,6 +20,7 @@ namespace StaffDirectory
         {
             await Navigation.PushAsync(new ProfilePage());
         }
+        
     }
 }
 
